@@ -23,13 +23,13 @@ using publicly available mortality data.
 - Log-transformation of mortality rates
 - ARIMA-based time-series modeling
 - Shock decomposition using counterfactual baselines
-- Mortality improvement index:
-  
-  \[
-  I_t = \ln\left(\frac{m_t}{m_{t-1}}\right)
-  \]
+- The mortality improvement index is defined as:
 
-- Rolling volatility analysis for longevity risk assessment
+$$
+I_t = \ln\left(\frac{m_t}{m_{t-1}}\right)
+$$
+
+where negative values indicate mortality improvement.
 
 ---
 
